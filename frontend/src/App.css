@@ -1,0 +1,88 @@
+/* GENERAL APP STYLING*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat-y;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: #7300ff;
+}
+
+p,
+li {
+  color: black;
+}
+/* SEARCH COMPONENT STYLING*/
+.SearchBox {
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 0.5%;
+  background-color: #7300ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* USERINFO COMPONENT STYLING*/
+.UserInfo {
+  margin: 20px 0;
+}
+
+img {
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+/* REPO INFO STYLING*/
+.RepoList {
+  margin: 20px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h4 {
+  margin-top: 10px;
+  color: #7300ff;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
